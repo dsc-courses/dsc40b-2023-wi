@@ -1,0 +1,917 @@
+{
+    "collections": {
+        "lectures": {
+            "publication_schema": {
+                "required_artifacts": [
+                    "slides.pdf"
+                ],
+                "optional_artifacts": [
+                    "slides-marked.pdf"
+                ],
+                "metadata_schema": {
+                    "optional_keys": {
+                        "note": {
+                            "type": "string"
+                        },
+                        "videos": {
+                            "nullable": true,
+                            "type": "list",
+                            "element_schema": {
+                                "type": "dict",
+                                "required_keys": {
+                                    "title": {
+                                        "type": "string"
+                                    },
+                                    "url": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "required_keys": {
+                        "date": {
+                            "type": "date"
+                        },
+                        "number": {
+                            "type": "integer"
+                        },
+                        "topic": {
+                            "type": "string"
+                        },
+                        "reading": {
+                            "nullable": true,
+                            "type": "string"
+                        }
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {
+                "01-intro": {
+                    "metadata": {
+                        "date": "2022-09-22",
+                        "number": 1,
+                        "topic": "Introduction",
+                        "reading": "Section 1.6",
+                        "note": "<p style=\"font-size: 10pt\">\nUnfortunately, it looks like the podcasting system didn't work during Lecture 01.\nInstead, I've uploaded the podcasts from a previous version of the course.\n</p>",
+                        "videos": [
+                            {
+                                "title": "What: DSC 40B?",
+                                "url": "https://youtu.be/AVFtI9yEZIY"
+                            },
+                            {
+                                "title": "Example: Clustering",
+                                "url": "https://youtu.be/AVFtI9yEZIY?t=597"
+                            },
+                            {
+                                "title": "Measuring Efficiency by Timing",
+                                "url": "https://youtu.be/AVFtI9yEZIY?t=2130"
+                            },
+                            {
+                                "title": "Measuring Efficiency by Counting Basic Operations",
+                                "url": "https://youtu.be/AVFtI9yEZIY?t=2457"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "02-time_complexity-pt_I": {
+                    "metadata": {
+                        "date": "2022-09-27",
+                        "number": 2,
+                        "topic": "Asymptotic Time Complexity, pt. I",
+                        "reading": "Section 1.1 - 1.4",
+                        "videos": [
+                            {
+                                "title": "News",
+                                "url": "https://youtu.be/HAd3kP7xg7I?t=71"
+                            },
+                            {
+                                "title": "Warm Up",
+                                "url": "https://youtu.be/HAd3kP7xg7I?t=271"
+                            },
+                            {
+                                "title": "Nested Loops",
+                                "url": "https://youtu.be/HAd3kP7xg7I?t=778"
+                            },
+                            {
+                                "title": "Dependent Nested Loops",
+                                "url": "https://youtu.be/HAd3kP7xg7I?t=2547"
+                            },
+                            {
+                                "title": "Growth Rates",
+                                "url": "https://youtu.be/HAd3kP7xg7I?t=3789"
+                            },
+                            {
+                                "title": "Big Theta, Formalized",
+                                "url": "https://youtu.be/HAd3kP7xg7I?t=4172"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "03-time_complexity-pt_II": {
+                    "metadata": {
+                        "date": "2022-09-29",
+                        "number": 3,
+                        "topic": "Asymptotic Time Complexity, pt. II",
+                        "reading": "Section 1.5",
+                        "videos": [
+                            {
+                                "title": "Big Theta, Formalized",
+                                "url": "https://youtu.be/iOuFSDCpmiU?t=90"
+                            },
+                            {
+                                "title": "Big-Oh and Big-Omega",
+                                "url": "https://youtu.be/iOuFSDCpmiU?t=1588"
+                            },
+                            {
+                                "title": "Properties",
+                                "url": "https://youtu.be/iOuFSDCpmiU?t=2392"
+                            },
+                            {
+                                "title": "Asymptotic Notation Practicalities",
+                                "url": "https://youtu.be/iOuFSDCpmiU?t=3555"
+                            },
+                            {
+                                "title": "The Movie Problem",
+                                "url": "https://youtu.be/iOuFSDCpmiU?t=3955"
+                            },
+                            {
+                                "title": "Best And Worst Cases",
+                                "url": "https://youtu.be/iOuFSDCpmiU?t=4182"
+                            },
+                            {
+                                "title": "Appendix (Optional): About Notation",
+                                "url": "https://youtu.be/uH9L9QpgI0Y?t=4275"
+                            },
+                            {
+                                "title": "Appendix (Optional): Asymptotic Notation and Limits",
+                                "url": "https://youtu.be/y_O-Z2XpRmg"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "04-expected_time": {
+                    "metadata": {
+                        "date": "2022-10-04",
+                        "number": 4,
+                        "topic": "Expected Time and Lower Bounds",
+                        "reading": null,
+                        "videos": [
+                            {
+                                "title": "Average Case",
+                                "url": "https://youtu.be/pJNM3rpsTgc?t=105"
+                            },
+                            {
+                                "title": "Average Case in Movie Problem",
+                                "url": "https://youtu.be/pJNM3rpsTgc?t=2147"
+                            },
+                            {
+                                "title": "Expected Time Complexity",
+                                "url": "https://youtu.be/pJNM3rpsTgc?t=3202"
+                            },
+                            {
+                                "title": "Lower Bound Theory",
+                                "url": "https://youtu.be/pJNM3rpsTgc?t=3643"
+                            },
+                            {
+                                "title": "Case Study - Matrix Multiplication",
+                                "url": "https://youtu.be/pJNM3rpsTgc?t=4206"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "05-binary_search-recurrences": {
+                    "metadata": {
+                        "date": "2022-10-06",
+                        "number": 5,
+                        "topic": "Recurrences and Binary Search",
+                        "reading": "Sections 2.4.1 and 2.2",
+                        "videos": [
+                            {
+                                "title": "Searching a Database",
+                                "url": "https://youtu.be/6pln4Sy0EgE?t=115"
+                            },
+                            {
+                                "title": "Binary Search",
+                                "url": "https://youtu.be/6pln4Sy0EgE?t=403"
+                            },
+                            {
+                                "title": "Thinking Inductively",
+                                "url": "https://youtu.be/6pln4Sy0EgE?t=2068"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "06-sorting": {
+                    "metadata": {
+                        "date": "2022-10-11",
+                        "number": 6,
+                        "topic": "Sorting",
+                        "reading": "Section 2.1 and 2.3",
+                        "videos": [
+                            {
+                                "title": "Selection Sort and Loop Invariants",
+                                "url": "https://youtu.be/Y6j1RweAI_I?t=133"
+                            },
+                            {
+                                "title": "Merge Sort",
+                                "url": "https://youtu.be/Y6j1RweAI_I?t=1505"
+                            },
+                            {
+                                "title": "Merge",
+                                "url": "https://youtu.be/Y6j1RweAI_I?t=2008"
+                            },
+                            {
+                                "title": "Using Sorted Structure",
+                                "url": "https://youtu.be/Y6j1RweAI_I?t=3689"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "07-quickselect": {
+                    "metadata": {
+                        "date": "2022-10-13",
+                        "number": 7,
+                        "topic": "Quickselect",
+                        "reading": null,
+                        "videos": [
+                            {
+                                "title": "The median and Order Statistics",
+                                "url": "https://youtu.be/bzXw35oEh_o?t=157"
+                            },
+                            {
+                                "title": "Quickselect",
+                                "url": "https://youtu.be/bzXw35oEh_o?t=960"
+                            },
+                            {
+                                "title": "Partition",
+                                "url": "https://youtu.be/bzXw35oEh_o?t=1962"
+                            },
+                            {
+                                "title": "Time Complexity Analysis",
+                                "url": "https://youtu.be/bzXw35oEh_o?t=2962"
+                            },
+                            {
+                                "title": "Quicksort",
+                                "url": "https://youtu.be/bzXw35oEh_o?t=4035"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "08-bst": {
+                    "metadata": {
+                        "date": "2022-10-18",
+                        "number": 8,
+                        "topic": "Binary Search Trees",
+                        "reading": null,
+                        "videos": [
+                            {
+                                "title": "Dynamic Sets",
+                                "url": "https://youtu.be/9bGnEflmsS8?t=550"
+                            },
+                            {
+                                "title": "Binary Search Tree",
+                                "url": "https://youtu.be/9bGnEflmsS8?t=2253"
+                            },
+                            {
+                                "title": "Queries and Insertions in BSTs",
+                                "url": "https://youtu.be/9bGnEflmsS8?t=2829"
+                            },
+                            {
+                                "title": "Balanced and Unbalanced BSTs",
+                                "url": "https://youtu.be/9bGnEflmsS8?t=3599"
+                            },
+                            {
+                                "title": "Augmenting BSTs",
+                                "url": "https://youtu.be/9bGnEflmsS8?t=4129"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "09-hashing": {
+                    "metadata": {
+                        "date": "2022-10-20",
+                        "number": 9,
+                        "topic": "Hashing",
+                        "reading": null,
+                        "videos": [
+                            {
+                                "title": "Warm up",
+                                "url": "https://youtu.be/tp7MKPXyePA?t=153"
+                            },
+                            {
+                                "title": "Direct Address Tables",
+                                "url": "https://youtu.be/tp7MKPXyePA?t=803"
+                            },
+                            {
+                                "title": "Hashing",
+                                "url": "https://youtu.be/tp7MKPXyePA?t=1330"
+                            },
+                            {
+                                "title": "Hash Tables",
+                                "url": "https://youtu.be/tp7MKPXyePA?t=2175"
+                            },
+                            {
+                                "title": "Fast Algorithms with Hash Tables",
+                                "url": "https://youtu.be/tp7MKPXyePA?t=3539"
+                            },
+                            {
+                                "title": "Hash Table Drawbacks",
+                                "url": "https://youtu.be/tp7MKPXyePA?t=4640"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "10-graph_theory": {
+                    "metadata": {
+                        "date": "2022-10-27",
+                        "number": 10,
+                        "topic": "Graph Theory",
+                        "reading": "Section 3.1 and 3.2",
+                        "videos": [
+                            {
+                                "title": "News",
+                                "url": "https://youtu.be/lEwb7O4RJRw?t=82"
+                            },
+                            {
+                                "title": "Graphs",
+                                "url": "https://youtu.be/lEwb7O4RJRw?t=222"
+                            },
+                            {
+                                "title": "Paths",
+                                "url": "https://youtu.be/lEwb7O4RJRw?t=2402"
+                            },
+                            {
+                                "title": "Connected Components",
+                                "url": "https://youtu.be/lEwb7O4RJRw?t=3355"
+                            },
+                            {
+                                "title": "Adjacency Matrix",
+                                "url": "https://youtu.be/lEwb7O4RJRw?t=3864"
+                            },
+                            {
+                                "title": "Adjacency Lists",
+                                "url": "https://youtu.be/lEwb7O4RJRw?t=4680"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "11-bfs-pt_I": {
+                    "metadata": {
+                        "date": "2022-11-01",
+                        "number": 11,
+                        "topic": "Breadth First Search",
+                        "reading": "Section 3.3",
+                        "videos": [
+                            {
+                                "title": "Adjacency matrices (recap)",
+                                "url": "https://youtu.be/qCpcRYoTAUI?t=146"
+                            },
+                            {
+                                "title": "Adjacency Lists",
+                                "url": "https://youtu.be/qCpcRYoTAUI?t=273"
+                            },
+                            {
+                                "title": "Dictionary of Sets",
+                                "url": "https://youtu.be/qCpcRYoTAUI?t=146"
+                            },
+                            {
+                                "title": "Graph Search Strategies",
+                                "url": "https://youtu.be/qCpcRYoTAUI?t=1769"
+                            },
+                            {
+                                "title": "Breadth First Search",
+                                "url": "https://youtu.be/qCpcRYoTAUI?t=2346"
+                            },
+                            {
+                                "title": "Analysis of BFS",
+                                "url": "https://youtu.be/qCpcRYoTAUI?t=3471"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "12-bfs-pt_II": {
+                    "metadata": {
+                        "date": "2022-11-03",
+                        "number": 12,
+                        "topic": "BFS for Shortest Paths",
+                        "reading": "Section 3.3",
+                        "videos": [
+                            {
+                                "title": "Warmup: Aggregate Analysis",
+                                "url": "https://youtu.be/to6Fc-8MtIg?t=87"
+                            },
+                            {
+                                "title": "Shortest Paths",
+                                "url": "https://youtu.be/to6Fc-8MtIg?t=765"
+                            },
+                            {
+                                "title": "BFS for Shortest Paths",
+                                "url": "https://youtu.be/to6Fc-8MtIg?t=1440"
+                            },
+                            {
+                                "title": "BFS Trees",
+                                "url": "https://youtu.be/to6Fc-8MtIg?t=3095"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "13-dfs": {
+                    "metadata": {
+                        "date": "2022-11-08",
+                        "number": 13,
+                        "topic": "Depth-First Search",
+                        "reading": "Section 3.4",
+                        "videos": [
+                            {
+                                "title": "Depth First Search",
+                                "url": "https://youtu.be/wLGV4UuxIFo?t=160"
+                            },
+                            {
+                                "title": "Nesting Properties of DFS",
+                                "url": "https://youtu.be/wLGV4UuxIFo?t=1614"
+                            },
+                            {
+                                "title": "Topological Sort",
+                                "url": "https://youtu.be/wLGV4UuxIFo?t=2561"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "14-bellman_ford": {
+                    "metadata": {
+                        "date": "2022-11-10",
+                        "number": 14,
+                        "topic": "Bellman-Ford",
+                        "reading": null,
+                        "videos": [
+                            {
+                                "title": "Shortest Paths in Weighted Graphs",
+                                "url": "https://youtu.be/NW28Bg4z2ck?t=78"
+                            },
+                            {
+                                "title": "Bellman-Ford",
+                                "url": "https://youtu.be/NW28Bg4z2ck?t=2222"
+                            },
+                            {
+                                "title": "Early Stopping and Negative Cycles",
+                                "url": "https://youtu.be/NW28Bg4z2ck?t=3988"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "15-dijkstra": {
+                    "metadata": {
+                        "date": "2022-11-15",
+                        "number": 15,
+                        "topic": "Dijkstra's Algorithm",
+                        "reading": null,
+                        "videos": [
+                            {
+                                "title": "Dijkstra's Algorithm",
+                                "url": "https://youtu.be/nQMjGU3SzYs?t=183"
+                            },
+                            {
+                                "title": "Implementation",
+                                "url": "https://youtu.be/nQMjGU3SzYs?t=2231"
+                            },
+                            {
+                                "title": "Proof",
+                                "url": "https://youtu.be/yffs-yLnh_o?t=3522"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "16-prim": {
+                    "metadata": {
+                        "date": "2022-11-17",
+                        "number": 16,
+                        "topic": "Minimum Spanning Trees and Prim's Algorithm",
+                        "reading": null,
+                        "videos": [
+                            {
+                                "title": "Minimum Spanning Trees",
+                                "url": "https://youtu.be/yojCAsL6yz8?t=112"
+                            },
+                            {
+                                "title": "Prim's Algorithm",
+                                "url": "https://youtu.be/yojCAsL6yz8?t=1880"
+                            },
+                            {
+                                "title": "Time Complexity",
+                                "url": "https://youtu.be/yojCAsL6yz8?t=3676"
+                            },
+                            {
+                                "title": "(Optional) Correctness of Prim's Algorithm",
+                                "url": "https://youtu.be/zBEWXua4wl0"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "17-kruskal": {
+                    "metadata": {
+                        "date": "2022-11-29",
+                        "number": 17,
+                        "topic": "Kruskal's Algorithm",
+                        "reading": "Section 3.5",
+                        "videos": [
+                            {
+                                "title": "full lecture (podcasts.ucsd.edu)",
+                                "url": "https://podcast.ucsd.edu/watch/fa22/dsc40b_a00/18"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "18-np_completeness": {
+                    "metadata": {
+                        "date": "2022-12-01",
+                        "number": 18,
+                        "topic": "Complexity Theory (Optional)",
+                        "reading": null,
+                        "videos": [
+                            {
+                                "title": "full lecture (podcasts.ucsd.edu)",
+                                "url": "https://podcast.ucsd.edu/watch/fa22/dsc40b_a00/19"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                }
+            }
+        },
+        "homeworks": {
+            "publication_schema": {
+                "required_artifacts": [
+                    "homework.pdf",
+                    "solution.pdf",
+                    "template.zip"
+                ],
+                "optional_artifacts": [],
+                "metadata_schema": {
+                    "required_keys": {
+                        "due": {
+                            "type": "datetime"
+                        },
+                        "released": {
+                            "type": "datetime"
+                        },
+                        "number": {
+                            "type": "integer"
+                        },
+                        "topic": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {
+                "01-time_complexity": {
+                    "metadata": {
+                        "due": "2022-10-03 23:59:00",
+                        "released": "2022-09-27 00:00:00",
+                        "number": 1,
+                        "topic": "Time Complexity Analysis"
+                    },
+                    "artifacts": {}
+                },
+                "02-asymptotic": {
+                    "metadata": {
+                        "due": "2022-10-10 23:59:00",
+                        "released": "2022-10-04 00:00:00",
+                        "number": 2,
+                        "topic": "Time Complexity and Asymptotic Notation"
+                    },
+                    "artifacts": {}
+                },
+                "03-recurrences-sorting": {
+                    "metadata": {
+                        "due": "2022-10-17 23:59:00",
+                        "released": "2022-10-11 23:59:00",
+                        "number": 3,
+                        "topic": "Binary Search, Recurrences, Sorting"
+                    },
+                    "artifacts": {}
+                },
+                "04-quickselect-bst": {
+                    "metadata": {
+                        "due": "2022-10-24 23:59:00",
+                        "released": "2022-10-18 23:59:00",
+                        "number": 4,
+                        "topic": "Quickselect and BSTs"
+                    },
+                    "artifacts": {}
+                },
+                "05-hashing": {
+                    "metadata": {
+                        "due": "2022-10-31 23:59:00",
+                        "released": "2022-10-25 23:59:00",
+                        "number": 5,
+                        "topic": "Hashing"
+                    },
+                    "artifacts": {}
+                },
+                "06-graphs": {
+                    "metadata": {
+                        "due": "2022-11-07 23:59:00",
+                        "released": "2022-11-01 23:59:00",
+                        "number": 6,
+                        "topic": "Graph Theory and BFS"
+                    },
+                    "artifacts": {}
+                },
+                "07-bfs-dfs": {
+                    "metadata": {
+                        "due": "2022-11-14 23:59:00",
+                        "released": "2022-11-08 23:59:00",
+                        "number": 7,
+                        "topic": "BFS and DFS"
+                    },
+                    "artifacts": {}
+                },
+                "08-spd": {
+                    "metadata": {
+                        "due": "2022-11-21 23:59:00",
+                        "released": "2022-11-15 23:59:00",
+                        "number": 8,
+                        "topic": "Shortest Paths in Weighted Graphs"
+                    },
+                    "artifacts": {}
+                },
+                "09-super_homework": {
+                    "metadata": {
+                        "due": "2022-12-07 23:59:00",
+                        "released": "2022-11-23 00:00:00",
+                        "number": 9,
+                        "topic": "Super Homework"
+                    },
+                    "artifacts": {}
+                }
+            }
+        },
+        "discussions": {
+            "publication_schema": {
+                "required_artifacts": [
+                    "discussion.pdf",
+                    "solution.pdf"
+                ],
+                "optional_artifacts": [
+                    "slides.pdf"
+                ],
+                "metadata_schema": {
+                    "optional_keys": {
+                        "recording": {
+                            "nullable": true,
+                            "type": "string"
+                        }
+                    },
+                    "required_keys": {
+                        "date": {
+                            "type": "date"
+                        },
+                        "number": {
+                            "type": "integer"
+                        },
+                        "topic": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {
+                "01-time_complexity": {
+                    "metadata": {
+                        "date": "2022-09-28",
+                        "number": 1,
+                        "topic": "Time Complexity Analysis",
+                        "recording": null
+                    },
+                    "artifacts": {}
+                },
+                "02-best_worst_time": {
+                    "metadata": {
+                        "date": "2022-10-05",
+                        "number": 2,
+                        "topic": "Time Complexity and Recurrences",
+                        "recording": null
+                    },
+                    "artifacts": {}
+                },
+                "03-recursion_sorting": {
+                    "metadata": {
+                        "date": "2022-10-12",
+                        "number": 3,
+                        "topic": "Recurrence Relations and Sorting",
+                        "recording": null
+                    },
+                    "artifacts": {}
+                },
+                "04-midterm_01_review": {
+                    "metadata": {
+                        "date": "2022-10-19",
+                        "number": 4,
+                        "topic": "Midterm 01 Review",
+                        "recording": null
+                    },
+                    "artifacts": {}
+                },
+                "06-graphs_bfs": {
+                    "metadata": {
+                        "date": "2022-11-02",
+                        "number": 6,
+                        "topic": "Graphs and BFS",
+                        "recording": null
+                    },
+                    "artifacts": {}
+                },
+                "07-dfs": {
+                    "metadata": {
+                        "date": "2022-11-09",
+                        "number": 7,
+                        "topic": "DFS",
+                        "recording": null
+                    },
+                    "artifacts": {}
+                },
+                "08-bellman_ford": {
+                    "metadata": {
+                        "date": "2022-11-16",
+                        "number": 8,
+                        "topic": "Bellman-Ford",
+                        "recording": null
+                    },
+                    "artifacts": {}
+                },
+                "09-prim_kruskal": {
+                    "metadata": {
+                        "date": "2022-03-10",
+                        "number": 10,
+                        "topic": "Prim, Kruskal, MST",
+                        "recording": "https://youtu.be/99H79OFp59w"
+                    },
+                    "artifacts": {}
+                }
+            }
+        },
+        "labs": {
+            "publication_schema": {
+                "required_artifacts": [],
+                "optional_artifacts": [],
+                "metadata_schema": {
+                    "required_keys": {
+                        "number": {
+                            "type": "integer"
+                        },
+                        "released": {
+                            "type": "datetime"
+                        },
+                        "ready": {
+                            "type": "boolean"
+                        },
+                        "due": {
+                            "type": "datetime"
+                        },
+                        "topic": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {
+                "01-time_complexity": {
+                    "metadata": {
+                        "number": 1,
+                        "released": "2022-09-25 00:00:00",
+                        "ready": true,
+                        "due": "2022-09-30 23:59:00",
+                        "topic": "Time Complexity Analysis"
+                    },
+                    "artifacts": {}
+                },
+                "02-asymptotic": {
+                    "metadata": {
+                        "number": 2,
+                        "released": "2022-10-02 00:00:00",
+                        "ready": true,
+                        "due": "2022-10-07 23:59:00",
+                        "topic": "Time Complexity and Asymptotic Notation"
+                    },
+                    "artifacts": {}
+                },
+                "03-recurrences-sorting": {
+                    "metadata": {
+                        "number": 3,
+                        "released": "2022-10-09 00:00:00",
+                        "ready": true,
+                        "due": "2022-10-14 23:59:00",
+                        "topic": "Binary Search, Recurrences, Sorting"
+                    },
+                    "artifacts": {}
+                },
+                "04-quickselect-bst": {
+                    "metadata": {
+                        "number": 4,
+                        "released": "2022-10-16 00:00:00",
+                        "ready": true,
+                        "due": "2022-10-21 23:59:00",
+                        "topic": "Quickselect and BSTs"
+                    },
+                    "artifacts": {}
+                },
+                "05-hashing": {
+                    "metadata": {
+                        "number": 5,
+                        "released": "2022-10-23 00:00:00",
+                        "ready": true,
+                        "due": "2022-10-28 23:59:00",
+                        "topic": "Hashing"
+                    },
+                    "artifacts": {}
+                },
+                "06-graphs": {
+                    "metadata": {
+                        "number": 6,
+                        "released": "2022-10-30 00:00:00",
+                        "ready": true,
+                        "due": "2022-11-04 23:59:00",
+                        "topic": "Graph Theory and BFS"
+                    },
+                    "artifacts": {}
+                },
+                "07-bfs": {
+                    "metadata": {
+                        "number": 7,
+                        "released": "2022-11-06 00:00:00",
+                        "ready": true,
+                        "due": "2022-11-11 23:59:00",
+                        "topic": "BFS and DFS"
+                    },
+                    "artifacts": {}
+                },
+                "08-spd": {
+                    "metadata": {
+                        "number": 8,
+                        "released": "2022-11-13 00:00:00",
+                        "ready": true,
+                        "due": "2022-11-18 23:59:00",
+                        "topic": "Shortest Paths in Weighted Graphs"
+                    },
+                    "artifacts": {}
+                },
+                "09-mst": {
+                    "metadata": {
+                        "number": 9,
+                        "released": "2022-11-27 00:00:00",
+                        "ready": true,
+                        "due": "2022-12-02 23:59:00",
+                        "topic": "Shortest Paths in Weighted Graphs"
+                    },
+                    "artifacts": {}
+                }
+            }
+        },
+        "default": {
+            "publication_schema": {
+                "required_artifacts": [],
+                "optional_artifacts": null,
+                "metadata_schema": null,
+                "allow_unspecified_artifacts": true,
+                "is_ordered": false
+            },
+            "publications": {
+                "notes": {
+                    "metadata": {},
+                    "artifacts": {
+                        "book.pdf": {
+                            "path": "default/notes/book.pdf"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
