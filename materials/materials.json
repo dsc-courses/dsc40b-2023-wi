@@ -6,7 +6,9 @@
                     "slides.pdf"
                 ],
                 "optional_artifacts": [
-                    "slides-marked.pdf"
+                    "slides-marked.pdf",
+                    "slides-wang.pdf",
+                    "slides-wang.pptx"
                 ],
                 "metadata_schema": {
                     "optional_keys": {
