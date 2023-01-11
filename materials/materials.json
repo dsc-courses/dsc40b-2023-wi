@@ -64,6 +64,12 @@
                         },
                         "slides-marked.pdf": {
                             "path": "lectures/01-intro/slides-marked.pdf"
+                        },
+                        "slides-wang.pdf": {
+                            "path": "lectures/01-intro/slides-wang.pdf"
+                        },
+                        "slides-wang.pptx": {
+                            "path": "lectures/01-intro/slides-wang.pptx"
                         }
                     }
                 },
