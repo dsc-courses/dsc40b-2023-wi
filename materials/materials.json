@@ -105,6 +105,12 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/03-time_complexity-pt_II/slides.pdf"
+                        },
+                        "slides-wang.pdf": {
+                            "path": "lectures/03-time_complexity-pt_II/slides-wang.pdf"
+                        },
+                        "slides-wang.pptx": {
+                            "path": "lectures/03-time_complexity-pt_II/slides-wang.pptx"
                         }
                     }
                 },
