@@ -128,6 +128,9 @@
                         "slides.pdf": {
                             "path": "lectures/04-expected_time/slides.pdf"
                         },
+                        "slides-marked.pdf": {
+                            "path": "lectures/04-expected_time/slides-marked.pdf"
+                        },
                         "slides-wang.pdf": {
                             "path": "lectures/04-expected_time/slides-wang.pdf"
                         },
