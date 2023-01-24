@@ -146,7 +146,14 @@
                         "topic": "Recurrences and Binary Search",
                         "reading": "Sections 2.4.1 and 2.2"
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "slides-wang.pdf": {
+                            "path": "lectures/05-binary_search-recurrences/slides-wang.pdf"
+                        },
+                        "slides-wang.pptx": {
+                            "path": "lectures/05-binary_search-recurrences/slides-wang.pptx"
+                        }
+                    }
                 },
                 "06-sorting": {
                     "metadata": {
