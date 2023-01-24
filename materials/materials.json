@@ -147,6 +147,9 @@
                         "reading": "Sections 2.4.1 and 2.2"
                     },
                     "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/05-binary_search-recurrences/slides.pdf"
+                        },
                         "slides-wang.pdf": {
                             "path": "lectures/05-binary_search-recurrences/slides-wang.pdf"
                         },
