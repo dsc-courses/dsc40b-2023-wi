@@ -348,7 +348,11 @@
                         "topic": "Recurrence Relations and Sorting",
                         "recording": null
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "discussion.pdf": {
+                            "path": "discussions/03-recursion_sorting/discussion.pdf"
+                        }
+                    }
                 },
                 "04-midterm_01_review": {
                     "metadata": {
