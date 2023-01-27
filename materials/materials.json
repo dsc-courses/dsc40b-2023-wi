@@ -150,6 +150,9 @@
                         "slides.pdf": {
                             "path": "lectures/05-binary_search-recurrences/slides.pdf"
                         },
+                        "slides-marked.pdf": {
+                            "path": "lectures/05-binary_search-recurrences/slides-marked.pdf"
+                        },
                         "slides-wang.pdf": {
                             "path": "lectures/05-binary_search-recurrences/slides-wang.pdf"
                         },
@@ -163,11 +166,20 @@
                         "date": "2023-01-26",
                         "number": 6,
                         "topic": "Sorting",
-                        "reading": "Section 2.1 and 2.3"
+                        "reading": "Section 2.1 and 2.3",
+                        "videos": [
+                            {
+                                "title": "Using Sorted Structure",
+                                "url": "https://youtu.be/Y6j1RweAI_I?t=3689"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/06-sorting/slides.pdf"
+                        },
+                        "slides-marked.pdf": {
+                            "path": "lectures/06-sorting/slides-marked.pdf"
                         },
                         "slides-wang.pdf": {
                             "path": "lectures/06-sorting/slides-wang.pdf"
