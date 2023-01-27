@@ -168,6 +168,12 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/06-sorting/slides.pdf"
+                        },
+                        "slides-wang.pdf": {
+                            "path": "lectures/06-sorting/slides-wang.pdf"
+                        },
+                        "slides-wang.pptx": {
+                            "path": "lectures/06-sorting/slides-wang.pptx"
                         }
                     }
                 },
