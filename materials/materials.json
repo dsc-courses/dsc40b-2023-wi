@@ -611,11 +611,18 @@
                 "03-recurrences-sorting": {
                     "metadata": {
                         "due": "2023-02-01 23:59:00",
-                        "released": "2023-01-26 23:59:00",
+                        "released": "2023-01-26 00:00:00",
                         "number": 3,
-                        "topic": "Binary Search, Recurrences, Sorting"
+                        "topic": "Recurrences and Sorting"
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "homework.pdf": {
+                            "path": "homeworks/03-recurrences-sorting/homework.pdf"
+                        },
+                        "template.zip": {
+                            "path": "homeworks/03-recurrences-sorting/template.zip"
+                        }
+                    }
                 },
                 "04-quickselect-bst": {
                     "metadata": {
