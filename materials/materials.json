@@ -197,6 +197,9 @@
                         "reading": null
                     },
                     "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/07-quickselect/slides.pdf"
+                        },
                         "slides-wang.pdf": {
                             "path": "lectures/07-quickselect/slides-wang.pdf"
                         },
