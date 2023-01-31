@@ -196,7 +196,14 @@
                         "topic": "Quickselect",
                         "reading": null
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "slides-wang.pdf": {
+                            "path": "lectures/07-quickselect/slides-wang.pdf"
+                        },
+                        "slides-wang.pptx": {
+                            "path": "lectures/07-quickselect/slides-wang.pptx"
+                        }
+                    }
                 },
                 "08-bst": {
                     "metadata": {
