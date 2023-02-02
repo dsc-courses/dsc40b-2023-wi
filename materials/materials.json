@@ -219,6 +219,9 @@
                         "reading": null
                     },
                     "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/08-bst/slides.pdf"
+                        },
                         "slides-wang.pdf": {
                             "path": "lectures/08-bst/slides-wang.pdf"
                         },
