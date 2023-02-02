@@ -218,7 +218,14 @@
                         "topic": "Binary Search Trees",
                         "reading": null
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "slides-wang.pdf": {
+                            "path": "lectures/08-bst/slides-wang.pdf"
+                        },
+                        "slides-wang.pptx": {
+                            "path": "lectures/08-bst/slides-wang.pptx"
+                        }
+                    }
                 },
                 "09-hashing": {
                     "metadata": {
