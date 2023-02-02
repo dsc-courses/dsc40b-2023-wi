@@ -399,7 +399,11 @@
                         "topic": "Midterm 01 Review",
                         "recording": null
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "discussion.pdf": {
+                            "path": "discussions/04-midterm_01_review/discussion.pdf"
+                        }
+                    }
                 },
                 "06-graphs_bfs": {
                     "metadata": {
