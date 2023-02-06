@@ -222,6 +222,9 @@
                         "slides.pdf": {
                             "path": "lectures/08-bst/slides.pdf"
                         },
+                        "slides-marked.pdf": {
+                            "path": "lectures/08-bst/slides-marked.pdf"
+                        },
                         "slides-wang.pdf": {
                             "path": "lectures/08-bst/slides-wang.pdf"
                         },
