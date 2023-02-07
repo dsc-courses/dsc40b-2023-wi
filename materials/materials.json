@@ -241,6 +241,9 @@
                         "reading": null
                     },
                     "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/09-hashing/slides.pdf"
+                        },
                         "slides-wang.pdf": {
                             "path": "lectures/09-hashing/slides-wang.pdf"
                         },
