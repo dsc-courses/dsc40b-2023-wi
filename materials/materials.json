@@ -240,7 +240,14 @@
                         "topic": "Hashing",
                         "reading": null
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "slides-wang.pdf": {
+                            "path": "lectures/09-hashing/slides-wang.pdf"
+                        },
+                        "slides-wang.pptx": {
+                            "path": "lectures/09-hashing/slides-wang.pptx"
+                        }
+                    }
                 },
                 "10-graph_theory": {
                     "metadata": {
