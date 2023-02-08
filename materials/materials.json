@@ -244,6 +244,9 @@
                         "slides.pdf": {
                             "path": "lectures/09-hashing/slides.pdf"
                         },
+                        "slides-marked.pdf": {
+                            "path": "lectures/09-hashing/slides-marked.pdf"
+                        },
                         "slides-wang.pdf": {
                             "path": "lectures/09-hashing/slides-wang.pdf"
                         },
@@ -254,7 +257,7 @@
                 },
                 "10-graph_theory": {
                     "metadata": {
-                        "date": "2023-02-09",
+                        "date": "2023-02-14",
                         "number": 10,
                         "topic": "Graph Theory",
                         "reading": "Section 3.1 and 3.2"
@@ -263,7 +266,7 @@
                 },
                 "11-bfs-pt_I": {
                     "metadata": {
-                        "date": "2023-02-14",
+                        "date": "2023-02-16",
                         "number": 11,
                         "topic": "Breadth First Search",
                         "reading": "Section 3.3"
@@ -272,7 +275,7 @@
                 },
                 "12-bfs-pt_II": {
                     "metadata": {
-                        "date": "2023-02-16",
+                        "date": "2023-02-21",
                         "number": 12,
                         "topic": "BFS for Shortest Paths",
                         "reading": "Section 3.3"
@@ -281,7 +284,7 @@
                 },
                 "13-dfs": {
                     "metadata": {
-                        "date": "2023-02-21",
+                        "date": "2023-02-23",
                         "number": 13,
                         "topic": "Depth-First Search",
                         "reading": "Section 3.4"
@@ -290,7 +293,7 @@
                 },
                 "14-bellman_ford": {
                     "metadata": {
-                        "date": "2023-02-23",
+                        "date": "2023-02-28",
                         "number": 14,
                         "topic": "Bellman-Ford",
                         "reading": null
@@ -299,7 +302,7 @@
                 },
                 "15-dijkstra": {
                     "metadata": {
-                        "date": "2023-02-28",
+                        "date": "2023-03-02",
                         "number": 15,
                         "topic": "Dijkstra's Algorithm",
                         "reading": null
@@ -308,7 +311,7 @@
                 },
                 "16-prim": {
                     "metadata": {
-                        "date": "2023-03-02",
+                        "date": "2023-03-07",
                         "number": 16,
                         "topic": "Minimum Spanning Trees and Prim's Algorithm",
                         "reading": null
