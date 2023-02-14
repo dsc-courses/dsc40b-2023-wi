@@ -262,7 +262,14 @@
                         "topic": "Graph Theory",
                         "reading": "Section 3.1 and 3.2"
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "slides-wang.pdf": {
+                            "path": "lectures/10-graph_theory/slides-wang.pdf"
+                        },
+                        "slides-wang.pptx": {
+                            "path": "lectures/10-graph_theory/slides-wang.pptx"
+                        }
+                    }
                 },
                 "11-bfs-pt_I": {
                     "metadata": {
