@@ -260,9 +260,34 @@
                         "date": "2023-02-14",
                         "number": 10,
                         "topic": "Graph Theory",
-                        "reading": "Section 3.1 and 3.2"
+                        "reading": "Section 3.1 and 3.2",
+                        "videos": [
+                            {
+                                "title": "Graphs",
+                                "url": "https://youtu.be/lEwb7O4RJRw?t=222"
+                            },
+                            {
+                                "title": "Paths",
+                                "url": "https://youtu.be/lEwb7O4RJRw?t=2402"
+                            },
+                            {
+                                "title": "Connected Components",
+                                "url": "https://youtu.be/lEwb7O4RJRw?t=3355"
+                            },
+                            {
+                                "title": "Adjacency Matrix",
+                                "url": "https://youtu.be/lEwb7O4RJRw?t=3864"
+                            },
+                            {
+                                "title": "Adjacency Lists",
+                                "url": "https://youtu.be/lEwb7O4RJRw?t=4680"
+                            }
+                        ]
                     },
                     "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/10-graph_theory/slides.pdf"
+                        },
                         "slides-wang.pdf": {
                             "path": "lectures/10-graph_theory/slides-wang.pdf"
                         },
