@@ -303,7 +303,14 @@
                         "topic": "Breadth First Search",
                         "reading": "Section 3.3"
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "slides-wang.pdf": {
+                            "path": "lectures/11-bfs-pt_I/slides-wang.pdf"
+                        },
+                        "slides-wang.pptx": {
+                            "path": "lectures/11-bfs-pt_I/slides-wang.pptx"
+                        }
+                    }
                 },
                 "12-bfs-pt_II": {
                     "metadata": {
