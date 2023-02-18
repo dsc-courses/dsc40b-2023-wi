@@ -307,6 +307,9 @@
                         "slides.pdf": {
                             "path": "lectures/11-bfs-pt_I/slides.pdf"
                         },
+                        "slides-marked.pdf": {
+                            "path": "lectures/11-bfs-pt_I/slides-marked.pdf"
+                        },
                         "slides-wang.pdf": {
                             "path": "lectures/11-bfs-pt_I/slides-wang.pdf"
                         },
