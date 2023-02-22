@@ -328,6 +328,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/12-bfs-pt_II/slides.pdf"
+                        },
+                        "slides-marked.pdf": {
+                            "path": "lectures/12-bfs-pt_II/slides-marked.pdf"
                         }
                     }
                 },
