@@ -331,6 +331,12 @@
                         },
                         "slides-marked.pdf": {
                             "path": "lectures/12-bfs-pt_II/slides-marked.pdf"
+                        },
+                        "slides-wang.pdf": {
+                            "path": "lectures/12-bfs-pt_II/slides-wang.pdf"
+                        },
+                        "slides-wang.pptx": {
+                            "path": "lectures/12-bfs-pt_II/slides-wang.pptx"
                         }
                     }
                 },
@@ -341,7 +347,14 @@
                         "topic": "Depth-First Search",
                         "reading": "Section 3.4"
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "slides-wang.pdf": {
+                            "path": "lectures/13-dfs/slides-wang.pdf"
+                        },
+                        "slides-wang.pptx": {
+                            "path": "lectures/13-dfs/slides-wang.pptx"
+                        }
+                    }
                 },
                 "14-bellman_ford": {
                     "metadata": {
