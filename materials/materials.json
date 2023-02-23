@@ -348,6 +348,9 @@
                         "reading": "Section 3.4"
                     },
                     "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/13-dfs/slides.pdf"
+                        },
                         "slides-wang.pdf": {
                             "path": "lectures/13-dfs/slides-wang.pdf"
                         },
