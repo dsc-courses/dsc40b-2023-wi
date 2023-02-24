@@ -528,6 +528,9 @@
                     "artifacts": {
                         "discussion.pdf": {
                             "path": "discussions/07-dfs/discussion.pdf"
+                        },
+                        "solution.pdf": {
+                            "path": "discussions/07-dfs/solution.pdf"
                         }
                     }
                 },
