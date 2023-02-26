@@ -351,6 +351,9 @@
                         "slides.pdf": {
                             "path": "lectures/13-dfs/slides.pdf"
                         },
+                        "slides-marked.pdf": {
+                            "path": "lectures/13-dfs/slides-marked.pdf"
+                        },
                         "slides-wang.pdf": {
                             "path": "lectures/13-dfs/slides-wang.pdf"
                         },
