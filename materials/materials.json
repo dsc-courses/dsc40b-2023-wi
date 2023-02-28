@@ -370,6 +370,9 @@
                         "reading": null
                     },
                     "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/14-bellman_ford/slides.pdf"
+                        },
                         "slides-wang.pdf": {
                             "path": "lectures/14-bellman_ford/slides-wang.pdf"
                         },
