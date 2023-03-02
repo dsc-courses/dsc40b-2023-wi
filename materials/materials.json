@@ -850,7 +850,14 @@
                         "number": 8,
                         "topic": "Shortest Paths in Weighted Graphs"
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "homework.pdf": {
+                            "path": "homeworks/08-spd/homework.pdf"
+                        },
+                        "template.zip": {
+                            "path": "homeworks/08-spd/template.zip"
+                        }
+                    }
                 },
                 "09-super_homework": {
                     "metadata": {
