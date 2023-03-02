@@ -388,7 +388,11 @@
                         "topic": "Dijkstra's Algorithm",
                         "reading": null
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/15-dijkstra/slides.pdf"
+                        }
+                    }
                 },
                 "16-prim": {
                     "metadata": {
