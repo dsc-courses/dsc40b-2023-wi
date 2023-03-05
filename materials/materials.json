@@ -373,6 +373,9 @@
                         "slides.pdf": {
                             "path": "lectures/14-bellman_ford/slides.pdf"
                         },
+                        "slides-marked.pdf": {
+                            "path": "lectures/14-bellman_ford/slides-marked.pdf"
+                        },
                         "slides-wang.pdf": {
                             "path": "lectures/14-bellman_ford/slides-wang.pdf"
                         },
@@ -391,6 +394,15 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/15-dijkstra/slides.pdf"
+                        },
+                        "slides-marked.pdf": {
+                            "path": "lectures/15-dijkstra/slides-marked.pdf"
+                        },
+                        "slides-wang.pdf": {
+                            "path": "lectures/15-dijkstra/slides-wang.pdf"
+                        },
+                        "slides-wang.pptx": {
+                            "path": "lectures/15-dijkstra/slides-wang.pptx"
                         }
                     }
                 },
@@ -561,6 +573,9 @@
                     "artifacts": {
                         "discussion.pdf": {
                             "path": "discussions/08-bellman_ford/discussion.pdf"
+                        },
+                        "solution.pdf": {
+                            "path": "discussions/08-bellman_ford/solution.pdf"
                         }
                     }
                 },
