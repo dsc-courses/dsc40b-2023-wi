@@ -411,7 +411,13 @@
                         "date": "2023-03-07",
                         "number": 16,
                         "topic": "Minimum Spanning Trees and Prim's Algorithm",
-                        "reading": null
+                        "reading": null,
+                        "videos": [
+                            {
+                                "title": "(Optional) Correctness of Prim's Algorithm",
+                                "url": "https://youtu.be/zBEWXua4wl0"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "slides.pdf": {
