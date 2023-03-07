@@ -413,7 +413,11 @@
                         "topic": "Minimum Spanning Trees and Prim's Algorithm",
                         "reading": null
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/16-prim/slides.pdf"
+                        }
+                    }
                 },
                 "17-kruskal": {
                     "metadata": {
