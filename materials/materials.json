@@ -839,6 +839,9 @@
                     "artifacts": {
                         "homework.pdf": {
                             "path": "homeworks/05-hashing/homework.pdf"
+                        },
+                        "solution.pdf": {
+                            "path": "homeworks/05-hashing/solution.pdf"
                         }
                     }
                 },
@@ -852,6 +855,9 @@
                     "artifacts": {
                         "homework.pdf": {
                             "path": "homeworks/06-graphs/homework.pdf"
+                        },
+                        "solution.pdf": {
+                            "path": "homeworks/06-graphs/solution.pdf"
                         },
                         "template.zip": {
                             "path": "homeworks/06-graphs/template.zip"
@@ -868,6 +874,9 @@
                     "artifacts": {
                         "homework.pdf": {
                             "path": "homeworks/07-bfs-dfs/homework.pdf"
+                        },
+                        "solution.pdf": {
+                            "path": "homeworks/07-bfs-dfs/solution.pdf"
                         },
                         "template.zip": {
                             "path": "homeworks/07-bfs-dfs/template.zip"
