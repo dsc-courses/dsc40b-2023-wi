@@ -433,16 +433,20 @@
                 },
                 "17-kruskal": {
                     "metadata": {
-                        "date": "2022-11-29",
+                        "date": "2023-03-14",
                         "number": 17,
                         "topic": "Kruskal's Algorithm",
                         "reading": "Section 3.5"
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/17-kruskal/slides.pdf"
+                        }
+                    }
                 },
                 "18-np_completeness": {
                     "metadata": {
-                        "date": "2022-12-01",
+                        "date": "2023-03-16",
                         "number": 18,
                         "topic": "Complexity Theory (Optional)",
                         "reading": null
